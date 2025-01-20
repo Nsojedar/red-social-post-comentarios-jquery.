@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Red Social - Posts y Comentarios</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
 <body>
     <header>
-        <h1>Red Social Ficticia</h1>
+        <div id="logo-container">
+            <img src="https://imgur.com/UuAmVeT.png" alt="Logo de Social World" id="logo">
+            <div>
+                <h1>Social World</h1>
+                <p id="subtitle">tu red, tu mundo</p>
+            </div>
+        </div>
         <input type="text" id="search-bar" placeholder="Buscar posts por título...">
     </header>
+    
     <main>
         <section id="posts-section">
             <h2>Publicaciones</h2>
@@ -23,8 +29,7 @@
             <div id="posts-container"></div>
         </section>
     </main>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
     <script src="js/posts.js"></script>
     <script src="js/comments.js"></script>
 </body>
