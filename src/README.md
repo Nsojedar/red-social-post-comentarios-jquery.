@@ -10,7 +10,7 @@ El objetivo principal de este proyecto es demostrar cómo construir una interfaz
 
 El proyecto está organizado en los siguientes archivos y directorios:
 
-'index.html': Archivo principal que contiene la estructura HTML
+`index.html`: Archivo principal que contiene la estructura HTML
 styles.css: Continene los estilos CSS para el diseño de la interfaz como los botones, inputs y contenedores.
 posts.js: Gestiona la lógica para la gestión de publicaciones incluyendo la creación, edición, eliminación y filtrado.
 - Los posts se almacenan en un array en memoria.
